@@ -41,7 +41,34 @@
     <main>
         <h3>Agende sua retirada da marmita</h3>
         <form action="#" method="post">
-            
+            <label for="nome">Nome Completo:</label>
+            <input type="text" name="nome" id="nome" >
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="telefone">Telefone:</label>
+            <input type="tel"
+            >
+            <br>
+            <label for="data">Data:</label>
+            <input type="date" name="data" id="data">
+            <br>
+            <label for="hora">Horário:</label>
+            <input type="time" name="hora" id="hora">
+            <br>
+            <label for="marmita">Marmita:</label>
+            <select name="marmita" id="marmita">
+                <option value="">Selecione uma tamanho</option>
+                <option value="P">P</option>
+                <option value="M">M</option>
+                <option value="G">G</option>
+            </select>
+            <br>
+            <label for="padrao/vegano">OBS: Ex: (Padrão ou vegano)</label>
+            <textarea name="mensagem" id="mensagem" rows="4"></textarea>
+            <br>
+            <button type="submit">Confirmar agendamento</button>
         </form>
     </main>
     <section>
